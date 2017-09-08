@@ -18,12 +18,12 @@ public class StupidController
 			testScanner();
 		}
 		
-		private void testScanner
+		private void testScanner()
 		{
 			Scanner firstScanner; 
 			firstScanner = new Scanner(System.in);
 			System.out.println("What's your favorite food");
 			String answer = firstScanner.next();
-			System.out.println("Oh cool, you like" + answer);
+			System.out.println("Oh cool, you like " + answer);
 		}
 }
