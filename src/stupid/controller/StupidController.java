@@ -42,6 +42,6 @@ public class StupidController
 			firstScanner = new Scanner(System.in);
 			System.out.println("What's your least favorite thing?");
 			String answer = firstScanner.next();
-			System.out.println("Oh, you don't like " + answer + "? Well Snek HATES as well " + answer + "!!!! SNEK WILL DESTROY " + answer + "!!!!! " + answer + " WILL FEAR SNEK!!!!!");
+			System.out.println("Oh, you don't like " + answer + "? Well Snek HATES " + answer + " as well!!!! SNEK WILL DESTROY " + answer + "!!!!! " + answer + " WILL FEAR SNEK!!!!!");
 		}
 }
