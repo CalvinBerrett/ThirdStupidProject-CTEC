@@ -2,7 +2,7 @@ package stupid.controller;
 
 import java.util.Scanner;
 import stupid.model.PayDohCircle;
-
+import stupid.model.PayDohSnek;
 /**
  * 
  * @author cber6181
@@ -23,6 +23,16 @@ public class StupidController
 			System.out.println(firstCircle);
 			System.out.println(secondCircle);
 			
+			Scanner myScanner = new Scanner(System.in);
+			System.out.println("How big of a circle do you want??");
+			int circleSize = myScanner.nextInt();
+			
+			PayDohCircle thirdCircle = new PayDohCircle(circleSize);
+			System.out.println(thirdCircle);
+			
+			PayDohSnek firstSnek = new PayDohSnek();
+			System.out.println(firstSnek);
+			
 			testScanner();
 		}
 		
@@ -30,8 +40,8 @@ public class StupidController
 		{
 			Scanner firstScanner; 
 			firstScanner = new Scanner(System.in);
-			System.out.println("What's your favorite food");
+			System.out.println("What's your least favorite thing?");
 			String answer = firstScanner.next();
-			System.out.println("Oh cool, you like " + answer);
+			System.out.println("Oh, you don't like " + answer + "? Well Snek HATES as well " + answer + "!!!! SNEK WILL DESTROY " + answer + "!!!!! " + answer + " WILL FEAR SNEK!!!!!");
 		}
 }
