@@ -30,6 +30,12 @@ public class StupidController
 			PayDohCircle thirdCircle = new PayDohCircle(circleSize);
 			System.out.println(thirdCircle);
 			
+			System.out.println("What size should we change the size to?");
+			int updated = myScanner.nextInt();
+			thirdCircle.setSize(updated);
+			System.out.println("The circle is now.....");
+			System.out.println(thirdCircle);
+			
 			PayDohSnek firstSnek = new PayDohSnek();
 			System.out.println(firstSnek);
 			

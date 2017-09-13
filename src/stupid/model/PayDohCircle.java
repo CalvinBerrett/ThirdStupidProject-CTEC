@@ -11,9 +11,14 @@ public class PayDohCircle
 			this.size = 5;
 		}
 		
-		public PayDohCircle(int size)
+		public PayDohCircle(int big)
 		{
-			this.size = size;
+			this.size = big;
+		}
+		
+		public void setSize(int newSize)
+		{
+			this.size = newSize;
 		}
 		
 		public String toString()
